@@ -1,0 +1,28 @@
+<DocumentAnalysis>
+  <AnalysisReferenceId>reference_id_1</AnalysisReferenceId>
+  <ApplicationId>reference_id_1</ApplicationId>
+  <PrimaryApplicantStipulations>
+    <Stipulation>
+      <Name>Income</Name>
+      <Status>Pass</Status>
+      <StipulationQuestions>
+        <StipulationQuestion>
+          <Question>is the applicant's income in-line with that what s/he stated?</Question>
+          <Answer>
+            <Extracted>$65,001.00</Extracted>
+            <Expected>$65,001.01</Expected>
+            <Status>Pass</Status>
+          </Answer>
+        </StipulationQuestion>
+        <StipulationQuestion>
+          <Question>which document was used to calculate income?</Question>
+          <Answer>
+            <Extracted>Current Paystub</Extracted>
+            <Expected/>
+            <Status>Pass</Status>
+          </Answer>
+        </StipulationQuestion>
+      </StipulationQuestions>
+    </Stipulation>
+  </PrimaryApplicantStipulations>
+</DocumentAnalysis>
